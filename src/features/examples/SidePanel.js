@@ -19,6 +19,9 @@ export class SidePanel extends Component {
             <Link to="/examples">Welcome</Link>
           </li>
           <li>
+            <Link to="/examples/login">Login</Link>
+          </li>
+          <li>
             <Link to="/examples/counter">Counter Demo</Link>
           </li>
           <li>

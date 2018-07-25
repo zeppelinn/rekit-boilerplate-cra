@@ -11,12 +11,16 @@ import { reducer as counterPlusOneReducer } from './counterPlusOne';
 import { reducer as counterMinusOneReducer } from './counterMinusOne';
 import { reducer as counterResetReducer } from './counterReset';
 import { reducer as fetchRedditListReducer } from './fetchRedditList';
+import { reducer as loginReducer } from './login';
+import { reducer as logoutReducer } from './logout';
 
 const reducers = [
   counterPlusOneReducer,
   counterMinusOneReducer,
   counterResetReducer,
   fetchRedditListReducer,
+  loginReducer,
+  logoutReducer,
 ];
 
 export default function reducer(state = initialState, action) {

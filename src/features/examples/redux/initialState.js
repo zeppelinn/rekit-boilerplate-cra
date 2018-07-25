@@ -10,6 +10,7 @@ const initialState = {
   redditList: [],
   fetchRedditListPending: false,
   fetchRedditListError: null,
+  loggedIn:false
 };
 
 export default initialState;
